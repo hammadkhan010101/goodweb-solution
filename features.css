@@ -1,0 +1,393 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px;
+}
+
+.top {
+    color: white;
+    padding-left: 10px;
+
+}
+
+.top a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.toolbar a {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.logo .features {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.5s ease;
+}
+
+.logo a:hover {
+    background-color: orangered;
+    color: white;
+}
+.sec1{
+    background-image: url(images/ourservicesimg.jpg);
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.department{
+    color: white;
+    font-size: 30px;
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    
+}
+.department h1{
+    font-size: 50px;
+}
+.department a{
+    text-decoration: none;
+    color: white;
+    
+
+    font-size: 20px;
+}
+.sec2{
+    height: 90vh;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;   
+}
+.heading h1{
+    font-size: 40px;
+}
+.heading p{
+    padding: 20px;
+    color: grey;
+    font-size: 20px;
+}
+.department2{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.part1{
+    border: solid #4a4a4a;
+    width: 60%;
+    /* padding: 0px 0px 10px ; */
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #4a4a4a;
+}
+.mail h1{
+    color: white;
+    text-align: center;
+}
+.mail p{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: right;
+    color: rgb(126, 117, 117);
+}
+.icon-1{
+    color: white;
+    background-color: orangered;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: right;
+    justify-content: right;
+}
+.department21{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-right: 20px;
+}
+.department2 img{
+    width: 350px;
+    margin-top: 10px;
+}
+.department22{
+    width: 33.3%;
+    margin-left: 20px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icon-2{
+    padding: 20px;
+    color: white;
+    background-color: orangered;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    justify-content: left;
+
+}
+.part2{
+   text-align: left;
+   justify-content: left;
+    display: flex;
+    width: 60%;
+    background-color: #4a4a4a;
+    /* padding: 20px; */
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.mail2{
+
+}
+.mail2 h1{
+    color: white;
+    text-align: center;
+}
+.mail2 p{
+    margin-top: 10px;
+    color: rgb(126, 117, 117);
+    margin-bottom: 10px;
+}
+.sec3{
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+}
+.department3{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.department3 img{
+    width: 350px;
+    border-radius: 4px;
+}
+.department3 div{
+    width: 33.3%;
+}
+.department3 h1{
+    text-align: center;
+}
+.department3 p{
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+}
+.sec8{
+    height: 120vh;
+    background-image: url(images/backimg.jpg);
+    background-size: cover;
+    
+}   
+.boxsec8{
+
+}
+.boxsec8 h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+.boxsec8 p{
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.department8{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block10{
+    margin-top: 40px;
+   
+   width: 100%;
+   
+}
+.arrowsec8{
+    padding: 30px;
+    width: 1%;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: yellow;
+    transition: 0.5s ease;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.arrowsec8:hover{
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: orangered;
+
+}
+.sticker{
+    color: orangered;
+    font-size: 25px;
+
+}
+.block10{
+    padding: 20px;
+    border: solid  #645f5f;
+    background-color: #645f5f;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+   
+}
+.stickerp{
+    color: white;
+    font-size:25px ;
+}
+.block10 h2{
+    color: white;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+.para2{
+    margin-top: 10px;
+    
+
+}
+ 
+.imagesdiv{
+    display: flex;
+    width: 60%;
+ 
+    
+}
+.line{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.line2{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.dotline{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.logodiv{
+    width: 80%;
+}
+.sec9{
+    height: 80vh;
+    background-color: black;
+}
+
+.department9{
+    background-color: #393939;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+.block11{
+    width: 50%;
+    
+}
+.block11 img{
+    padding: 20px;
+}
+.block11 p{
+    color: rgb(128, 125, 125);
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.block11 h1{
+    color: rgb(128, 125, 125);
+    font-size: 16px;
+    margin-left: 20px;
+    
+}
+.block12{
+    text-align: left;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.block12 a{
+    color: rgb(118, 112, 112);
+    text-decoration-line: none;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.block12 h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block12 a:hover{
+    color: orangered;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.block12 i{
+    
+     
+}
+.block12 i:hover{
+    color: orangered;
+}
+.last{
+    color: #5e5b5b;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 60px;
+}

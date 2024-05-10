@@ -1,0 +1,448 @@
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px;
+}
+
+.top {
+    color: white;
+    padding-left: 10px;
+
+}
+
+.top a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.toolbar a {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.logo .protfolio {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.5s ease;
+}
+
+.logo a:hover {
+    background-color: orangered;
+    color: white;
+}
+.sec1{
+    background-image: url(images/ourservicesimg.jpg);
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.department{
+    color: white;
+    font-size: 30px;
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    
+}
+.department h1{
+    font-size: 50px;
+}
+.department a{
+    text-decoration: none;
+    color: white;
+    
+
+    font-size: 20px;
+}
+.sec1{
+    height: auto;
+}
+.department{
+    height: 40vh;
+    width: 70%;
+    justify-content: center;
+    margin-top: 40px;
+}
+.departmenthead{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    color: orangered;
+    font-size: 70px;
+    margin-right: 20px;
+}
+.sec2{
+    height: auto;
+
+}
+.sec2head{
+    text-align: center;
+    margin-top: 20px;
+}
+.sec2head h1{
+    color: rgb(76, 74, 74);
+    font-size: 50px;
+    font-weight: 50;
+    margin-bottom: 20px;
+}
+.sec2head p{
+    color: rgb(131, 128, 128);
+    font-size: 25px;
+}
+.department2anker{
+    width: 100%;
+    height: 30vh;
+}
+.inneranker{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inneranker a{
+    text-decoration: none;
+    
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: black;
+    width: 100px;
+    font-size: 20px;
+    padding: 15px 0px 15px;
+    border: solid orangered;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.5s ease;
+}
+.all{
+    background-color: yellow;
+}
+.innerimg{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.imgcollection img{
+    width: 300px;
+}
+.sec5 {
+    height: 120vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.boxb{
+    text-align: center;
+    padding: 20px;
+}
+.boxb .h48{
+    color: #393939;
+    font-size: 50px;
+}
+.p48{
+    color: #999;
+    font-size: 25px;
+    padding: 25px 40px 30px 40px;
+
+}
+
+.inner{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+.divimg{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    height:50vh;
+}
+.imgno1{
+    width: 25%;
+    
+
+    
+}
+.divimg img{
+    width: 400px;
+    border-radius: 5px;
+}
+.divimg h1{
+    color: #393939;
+    padding-top: 10px;
+    text-align: left;
+}
+.divimg p{
+    color: #999;
+    text-align: left;
+    padding: 5px;
+}
+
+.arrow2{
+    padding: 20px;
+    width: 2%;
+    height: 10vh;
+    font-size: 25px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: green;    
+    background-color: yellow;
+    border: 2px solid orange;
+    border: transparent;
+}
+.arrow2:hover{
+    padding: 20px;
+    font-size: 25px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: green;    
+    background-color: black;
+    border: 5px solid orange;
+}
+.lstbtn{
+    text-align: center;
+}
+.lstbtn2{
+    width: 90%;
+    height: 25%;
+    text-align: center;
+    
+}
+.lstbtn button{
+    padding: 20px;
+    background-color: orangered;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+    border: solid orangered;
+    transition: 0.5s ease;
+}
+.lstbtn button:hover{
+    padding: 20px;
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+    border: solid orangered;
+}
+
+.h49{
+    font-size: 30px;
+    color: black;
+}
+.p46{
+    font-size: 20px;
+    color: #999;
+}
+.sec8{
+    height: 120vh;
+    background-image: url(images/backimg.jpg);
+    background-size: cover;
+    
+}   
+.boxsec8{
+    /* margin-top: 17rem; */
+
+}
+.boxsec8 h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+.boxsec8 p{
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.department786{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    margin-top: 40px;
+   
+   width: 80%;
+   
+}
+.arrowsec8{
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: yellow;
+    transition: 0.5s ease;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.arrowsec8:hover{
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: orangered;
+
+}
+.sticker{
+    color: orangered;
+    font-size: 25px;
+
+}
+.block2{
+    padding: 20px;
+    
+    border: solid  #645f5f;
+    background-color: #645f5f;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+   
+}
+.stickerp{
+    color: white;
+    font-size:25px ;
+}
+.block h2{
+    color: white;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+.para2{
+    margin-top: 10px;
+    
+
+}
+ 
+.imagesdiv{
+    display: flex;
+    width: 60%;
+ 
+    
+}
+.line{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.line2{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.dotline{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.logodiv{
+    width: 80%;
+}
+.sec9{
+    height: 80vh;
+    background-color: black;
+}
+
+.department7862{
+    background-color: #393939;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+.block1{
+    width: 50%;
+    
+}
+.block1 img{
+    padding: 20px;
+}
+.block1 p{
+    color: rgb(128, 125, 125);
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.block1 h1{
+    color: rgb(128, 125, 125);
+    font-size: 16px;
+    margin-left: 20px;
+    
+}
+.block3{
+    text-align: left;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.block3 a{
+    color: rgb(118, 112, 112);
+    text-decoration-line: none;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.block3 h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block3 a:hover{
+    color: orangered;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.block3 i{
+    
+     
+}
+.block3 i:hover{
+    color: orangered;
+}
+.last{
+    color: #999;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 60px;
+}
